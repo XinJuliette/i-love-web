@@ -12,6 +12,7 @@ header {
     font-size: 60px;
     background-color: rgb(216, 125, 148);
     background-image: linear-gradient(to top, rgb(216, 125, 148), rgb(255, 222, 230))
+    
 }
 
 article {
@@ -21,7 +22,7 @@ article {
 }
 
 .journal-day {
-    background-image: radial-gradient(rgb(247, 237, 224), rgb(240, 208, 167));
+    background-image: radial-gradient(rgb(254, 252, 255), rgb(221, 219, 238));
     border-radius: 15px;
 
     padding: 15px;
@@ -48,13 +49,6 @@ h2 {
     border-width: 5px;
     border-style:outset;
     
-}
-
-p {
-    text-decoration: underline dashed;
-    text-decoration-color: rgb(228, 203, 171);
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
 }
 
 body {
