@@ -4,6 +4,8 @@ html {
 }
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
@@ -11,11 +13,11 @@ header {
     padding-top: 10px;
 
     margin-bottom: 15px;
-
+    
     color: ivory;
     font-size: 60px;
     background-color: rgb(216, 125, 148);
-    background-image: linear-gradient(to right, rgb(255, 146, 197), rgb(214, 72, 108));
+    background-image: linear-gradient(to left, rgb(255, 146, 197), rgb(53, 0, 18));
     
 }
 
