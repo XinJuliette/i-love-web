@@ -32,7 +32,7 @@ button {
     box-shadow: 7px 7px 7px rgb(245, 192, 216);
 }
 
-button:hover {
+button:not(.header-button):hover {
     padding: 15px;
     border-radius: 14px;
     font-size: 24px;
