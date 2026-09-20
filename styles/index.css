@@ -32,6 +32,17 @@ button {
     box-shadow: 7px 7px 7px rgb(245, 192, 216);
 }
 
+button:hover {
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 24px;
+    color: ivory;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(146, 230, 255), rgb(72, 169, 214));
+    border: none;
+    box-shadow: 7px 7px 7px rgb(192, 230, 245);
+}
+
 header{
     display: flex;
     flex-direction: row;
