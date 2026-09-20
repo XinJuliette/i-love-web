@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(255, 243, 247)
+    background-color: rgb(255, 243, 247);
+
 }
 
 header {
@@ -8,10 +9,13 @@ header {
     padding-right: 15px;
     padding-bottom:15px;
     padding-top: 10px;
-    font-family: Helvetica;
+
+    margin-bottom: 15px;
+
+    color: ivory;
     font-size: 60px;
     background-color: rgb(216, 125, 148);
-    background-image: linear-gradient(to top, rgb(216, 125, 148), rgb(255, 222, 230))
+    background-image: linear-gradient(to right, rgb(255, 146, 197), rgb(214, 72, 108));
     
 }
 

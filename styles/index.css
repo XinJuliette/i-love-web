@@ -1,3 +1,11 @@
 button {
-    background-image: linear-gradient(rgb(60, 85, 88), rgb(111, 159, 173), rgb(60, 85, 88));
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 24px;
+    color: ivory;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 146, 197), rgb(214, 72, 108));
+    border: none;
+    box-shadow: 7px 7px 7px rgb(245, 192, 216);
 }
+
