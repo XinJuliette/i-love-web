@@ -1,0 +1,14 @@
+.journal-day {
+    border-radius: 15px;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+        h2{
+            background-image: var(--gradient);
+            width: fit-content;
+            padding: .5em;
+            border-radius: .5em;
+/*             color: var(--gradient); */
+        }
+}
+
