@@ -23,10 +23,12 @@ button:not(.header-button):hover {
 
 .profilecard {
     background-color: var(--bodytext);
-    height: 40em;
+    height: 50em;
     width: 30em;
     border-radius: 1em;
     padding: .5em;
+    color: white;
+    overflow: hidden;
         #banner {
             height: 25%;
             grid-template-columns: 1fr 10fr;
@@ -40,7 +42,7 @@ button:not(.header-button):hover {
             }
             #profilepic {
                 border-radius: 100%;
-                height: 100%;
+                height: 10em;
                 aspect-ratio: 1/1;
                 object-fit: cover;
                 margin-top: -20%;
@@ -53,24 +55,65 @@ button:not(.header-button):hover {
                 margin-left: -4em;
                 margin-bottom: .5em;                
             }
+            #thoughtbar {
+                margin-left: 1em;
+                margin-top: -1em;
+            }
         }
 }
 #empty-space {
     height: 6em;
 }
-.info {
-    color: white;
-    letter-spacing: 1px;
+article {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    .info {
+        color: white;
+        letter-spacing: 1px;
+            h2 {
+                font-weight: 700;
+                margin: 0;
+            }
+            h3 {
+                font-weight: 300;
+                font-size: .9em;
+                margin: 0;
+            }
+    }
+    .bio {
+        color: white;
+        letter-spacing: 1px;
+    }
+    .activity {        
         h2 {
             font-weight: 700;
             margin: 0;
         }
-        h3 {
-            font-weight: 300;
-            margin: 0;
+        #activity {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            justify-self: center;
+            height: 15em;
+            width: 25em;
+            border-radius: 2em;
+            margin: 1em;      
+            gap: 1em;  
+                #album {
+                    height: 75%;
+                    align-self: center;
+                }
+                h3 {
+                    color: var(--bodytext);
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    font-size: .9em;
+                    align-self: center;
+                    text-align: center;
+                }
         }
+    }
 }
-
 
 
 
