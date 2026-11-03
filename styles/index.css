@@ -22,17 +22,15 @@ button:not(.header-button):hover {
 } */
 
 .profilecard {
-    background-color: pink;
+    background-color: var(--bodytext);
     height: 40em;
     width: 30em;
     border-radius: 1em;
     padding: .5em;
         #banner {
             height: 25%;
-            overflow: hidden;
-            button {
-                float: right;
-            }
+            grid-template-columns: 1fr 10fr;
+            grid-template-rows: 5fr 1fr;
             #bannerphoto {
                 width: 100%;
                 height: 100%;
@@ -40,7 +38,39 @@ button:not(.header-button):hover {
                 object-position: 50% 60%;
                 border-radius: .5em .5em 0 0; 
             }
+            #profilepic {
+                border-radius: 100%;
+                height: 100%;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                margin-top: -20%;
+                margin-left: 1em;
+                border-width: .5em;
+                border-color: var(--bodytext);
+                border-style: solid;                
+            }
+            #status {
+                margin-left: -4em;
+                margin-bottom: .5em;                
+            }
         }
 }
+#empty-space {
+    height: 6em;
+}
+.info {
+    color: white;
+    letter-spacing: 1px;
+        h2 {
+            font-weight: 700;
+            margin: 0;
+        }
+        h3 {
+            font-weight: 300;
+            margin: 0;
+        }
+}
+
+
 
 
