@@ -1,119 +1,106 @@
-
-/* button {
-    padding: 15px;
-    border-radius: 14px;
-    font-size: 24px;
-    color: ivory;
-    text-align: center;
-    background-image: linear-gradient(to right, rgb(255, 146, 197), rgb(214, 72, 108));
-    border: none;
-    box-shadow: 7px 7px 7px rgb(245, 192, 216);
+main {
+    padding: 1em;
 }
 
-button:not(.header-button):hover {
-    padding: 15px;
-    border-radius: 14px;
-    font-size: 24px;
-    color: ivory;
-    text-align: center;
-    background-image: linear-gradient(to right, rgb(146, 230, 255), rgb(72, 169, 214));
-    border: none;
-    box-shadow: 7px 7px 7px rgb(192, 230, 245);
-} */
-
-.profilecard {
-    background-color: var(--bodytext);
-    height: 50em;
-    width: 30em;
-    border-radius: 1em;
-    padding: .5em;
-    color: white;
-    overflow: hidden;
-        #banner {
-            height: 25%;
-            grid-template-columns: 1fr 10fr;
-            grid-template-rows: 5fr 1fr;
-            #bannerphoto {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: 50% 60%;
-                border-radius: .5em .5em 0 0; 
-            }
-            #profilepic {
-                border-radius: 100%;
-                height: 10em;
-                aspect-ratio: 1/1;
-                object-fit: cover;
-                margin-top: -20%;
-                margin-left: 1em;
-                border-width: .5em;
-                border-color: var(--bodytext);
-                border-style: solid;                
-            }
-            #status {
-                margin-left: -4em;
-                margin-bottom: .5em;                
-            }
-            #thoughtbar {
-                margin-left: 1em;
-                margin-top: -1em;
-            }
-        }
-}
-#empty-space {
-    height: 6em;
-}
-article {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    .info {
-        color: white;
-        letter-spacing: 1px;
-            h2 {
-                font-weight: 700;
-                margin: 0;
-            }
-            h3 {
-                font-weight: 300;
-                font-size: .9em;
-                margin: 0;
-            }
-    }
-    .bio {
-        color: white;
-        letter-spacing: 1px;
-    }
-    .activity {        
-        h2 {
-            font-weight: 700;
-            margin: 0;
-        }
-        #activity {
-            display: flex;
-            flex-direction: row;
-            background-color: white;
-            justify-self: center;
-            height: 15em;
-            width: 25em;
-            border-radius: 2em;
-            margin: 1em;      
-            gap: 1em;  
-                #album {
-                    height: 75%;
-                    align-self: center;
+/* PROFILE-CARD */
+a {
+    text-decoration: none;
+    align-self: center;
+    width: fit-content;
+    display: inline-block;
+        .profilecard {
+            justify-content: center;
+            background-color: var(--bodytext);
+            height: 50em;
+            width: 30em;
+            border-radius: 1em;
+            padding: .5em;
+            color: white;
+            overflow: hidden;
+                #banner {
+                    height: 25%;
+                    grid-template-columns: 1fr 10fr;
+                    grid-template-rows: 5fr 1fr;
+                    #bannerphoto {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: 50% 60%;
+                        border-radius: .5em .5em 0 0; 
+                    }
+                    #profilepic {
+                        border-radius: 100%;
+                        height: 10em;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        margin-top: -20%;
+                        margin-left: 1em;
+                        border-width: .5em;
+                        border-color: var(--bodytext);
+                        border-style: solid;                
+                    }
+                    #status {
+                        margin-left: -4em;
+                        margin-bottom: .5em;                
+                    }
+                    #thoughtbar {
+                        margin-left: 1em;
+                        margin-top: -1em;
+                    }
                 }
-                h3 {
-                    color: var(--bodytext);
+            #empty-space {
+            height: 6em;
+            }
+            article {
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+                .info {
+                    color: white;
                     letter-spacing: 1px;
-                    font-weight: 400;
-                    font-size: .9em;
-                    align-self: center;
-                    text-align: center;
+                        h2 {
+                            font-weight: 700;
+                            margin: 0;
+                        }
+                        h3 {
+                            font-weight: 300;
+                            font-size: .9em;
+                            margin: 0;
+                        }
                 }
+                .bio {
+                    color: white;
+                    letter-spacing: 1px;
+                }
+                .activity {        
+                    h2 {
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                    #activity {
+                        display: flex;
+                        flex-direction: row;
+                        background-color: white;
+                        justify-self: center;
+                        height: 15em;
+                        width: 25em;
+                        border-radius: 2em;
+                        margin: 1em;      
+                        gap: 1em;  
+                            #album {
+                                height: 75%;
+                                align-self: center;
+                            }
+                            h3 {
+                                color: var(--bodytext);
+                                letter-spacing: 1px;
+                                font-weight: 400;
+                                font-size: .9em;
+                                align-self: center;
+                                text-align: center;
+                            }
+                    }
+                }
+            }
         }
-    }
 }
-
-
 
