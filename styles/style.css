@@ -24,6 +24,7 @@ header {
     flex-direction: row;
     padding: .3em;
     gap: 1em;
+    width: 100%;
     
     color: ivory;
     font-size: 60px;

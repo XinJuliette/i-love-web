@@ -4,6 +4,7 @@ main {
 
 /* PROFILE-CARD */
 a {
+    margin-bottom: 2em;
     text-decoration: none;
     align-self: center;
     width: fit-content;
@@ -101,6 +102,36 @@ a {
                     }
                 }
             }
+        }
+}
+.code-diff {
+    background-color: var(--bodytext);
+    color: white;
+    border-radius: 1em;
+
+    gap: 1em;
+    padding: 1em;
+    max-width: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 1fr;
+    grid-template-areas: 
+    "title title"
+    "before after"
+    ;
+        h1 {
+            grid-area: title;
+        }
+        #before {
+            grid-area: before;
+        }
+        #after {
+            grid-area: after;
+        }
+
+        #before, #after {
+            overflow-x: scroll;
         }
 }
 
