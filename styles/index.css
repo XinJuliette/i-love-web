@@ -174,9 +174,13 @@ main {
 
 /* CODE-REVIEW */
 .codereview {
+    background-color: var(--bodytext);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
     margin-bottom: 2em;
+    gap: 1em;
     text-wrap: wrap;
-    max-width: 75%;
         h1 {
             text-decoration: underline;
         }
