@@ -161,9 +161,50 @@
                 <img src="assets/recentbreakdown.jpg">
             </div>
         </article>
-        
+        <!-- CODE-REVIEW -->
+        <article class="codereview">
+            <h1>Eerste Code Review - Sprint 3 (All-Human)</h1>
 
+            <h2>Code Review - Sprint 3 (All Human)</h2>
+            <p>Dankjewel dat ik dit mag doen @savannahvdheld !!</p>
 
+            <h3>Header</h3>
+            <p>Op dit moment heb je een <code>section</code> met daarin een <code>article</code> met daarin een <code>ul</code>. In principe zou je of de <code>sectie</code> of de <code>article</code> weg kunnen laten omdat deze dubbele laag voor jou geen functie heeft.
+            </p>
+
+            <p>In een <code>ul</code> heb je altijd <code>li</code> nodig. Wesley heeft ervoor gekozen om dit op te lossen door alles binnen de header een <code>li</code> te geven. Ik heb het opgelost door de gehele <code>ul</code> weg te halen.
+            </p>
+
+            <p>Voor toegankelijkheid zou je <code>img</code> een <code>aria-label="logo"</code>-attribuut kunnen geven. Hetzelfde geldt voor het hamburger-menu.
+            </p>
+
+            <p>Voor de website wilden we dat de header bovenaan in het scherm bleef, dit kun je behalen in CSS met
+
+            </p>
+            <pre><code>.header {
+            position: sticky;
+            }</code></pre>
+
+            <h2>Main</h2>
+
+            <h3>Dashboard</h3>
+            <p>Heel goed dat hier de <code>ul</code> wel <code>li</code> heeft!
+            </p>
+
+            <h3>Recommended</h3>
+            <p>De recommended hoeft niet per sé in een <code>ul</code> te staan. Voor je eigen gemak is het ook prima om dit in een <code>section</code> te zetten. Dan kun je ook al die <code>li</code> weglaten. Dit heeft geen invloed op hoe je je CSS op zou maken. Dat zou er dan zou uit komen te zien:
+            </p>
+            <pre><code>&lt;section class="recommended_text"&gt;
+                &lt;h2&gt; Recommended for you &lt;/h2&gt;
+                &lt;p&gt; Projects, questions and colleagues selected based on your preferences &lt;/p&gt;
+            &lt;/section&gt;</code></pre>
+            <p>Dit komt zonder enkele CSS al ander elkaar te staan, dan hoef je in je CSS ook niet meer gebruik te maken van <code>justify-self: left;
+            </code></p>
+
+            <h3>Cards</h3>
+            <p>De cards hoeven ook niet per sé in een <code>ul</code> te staan, je kunt dit ook regelen met enkel <code>a</code>. De <code>ul</code> zelf hoeft ook niet in een grid te staan. Je kunt de kaartjes ook gemakkelijk ordenen met bijvoorbeeld een flex-box. Dan neem je meteen het responsive design mee!
+            </p>
+        </article>
     </main>
 </body>
 </html>

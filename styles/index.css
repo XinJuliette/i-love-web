@@ -152,7 +152,7 @@ main {
         h2, #old, #new {
             justify-self: center;
         }
-    @media (min-width: 1020px) {
+    @media (min-width: 1050px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 5em 1fr;
@@ -170,4 +170,14 @@ main {
                 grid-area: new;
             }
     }
+}
+
+/* CODE-REVIEW */
+.codereview {
+    margin-bottom: 2em;
+    text-wrap: wrap;
+    max-width: 75%;
+        h1 {
+            text-decoration: underline;
+        }
 }
