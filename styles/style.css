@@ -24,7 +24,6 @@ header {
     flex-direction: row;
     padding: .3em;
     gap: 1em;
-    width: 100%;
     
     color: ivory;
     font-size: 60px;
@@ -44,6 +43,7 @@ header {
         border-color: ivory;
         border-radius: 14px;
         text-decoration: none;
+        text-wrap: nowrap;
     }
     a:hover {
         background-color: rgba(255, 214, 227, 0.479);

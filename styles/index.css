@@ -3,12 +3,12 @@ main {
 }
 
 /* PROFILE-CARD */
-a {
+.a {
     margin-bottom: 2em;
     text-decoration: none;
-    align-self: center;
     width: fit-content;
-    display: inline-block;
+    display: block;
+    justify-self: center;
         .profilecard {
             justify-content: center;
             background-color: var(--bodytext);
@@ -104,14 +104,15 @@ a {
             }
         }
 }
+/* CODING DIFFERENCES */
 .code-diff {
+    margin-bottom: 2em;
     background-color: var(--bodytext);
     color: white;
     border-radius: 1em;
 
     gap: 1em;
     padding: 1em;
-    max-width: 100vh;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,4 +135,36 @@ a {
             overflow-x: scroll;
         }
 }
+/* BREAKDOWN SKETCHES */
+.breakdownsketch {
+    background-color: var(--bodytext);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    gap: 1em;
 
+    display: flex;
+    flex-direction: column;
+        img {
+            width: 30em;
+        }
+    @media (min-width: 1020px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5em 1fr;
+        grid-template-areas:
+        "title title"
+        "old new"
+        ;
+            h1 {
+                grid-area: title;
+            }
+            #old {
+                grid-area: old;
+            }
+            #new {
+                grid-area: new;
+            }
+    }
+}
