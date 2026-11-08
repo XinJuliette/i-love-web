@@ -44,6 +44,7 @@ header {
         border-radius: 14px;
         text-decoration: none;
         text-wrap: nowrap;
+        margin: .5em;
     }
     a:hover {
         background-color: rgba(255, 214, 227, 0.479);
