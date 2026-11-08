@@ -19,7 +19,7 @@
     </header>
     <main>
         <!-- RECREATE THE PROFILE-CARD -->
-         <a href="https://xinjuliette.github.io/your-tribe-profile-card/">
+         <a class="a" href="https://xinjuliette.github.io/your-tribe-profile-card/">
             <article class="profilecard">
                     <div id="banner">
                         <img src="assets/appa-art.png" id="bannerphoto">
@@ -61,7 +61,95 @@
                     </article>
             </article>
          </a>
-         <!--  -->
+        <!-- CODE DIFFERENCE -->
+        <article class="code-diff">
+            <h1>Difference in coding</h1>
+            <div id="before">
+                <h2>Before</h2>
+<pre><code class="language-html">&lt;div class="profile-banner"&gt;
+  &lt;div class="banner-background"&gt;
+    &lt;div class="profile-header"&gt;
+      &lt;img class="profile-picture" src="assets/profiel-foto.jpeg" alt=""&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="profile-info"&gt;
+    &lt;h1&gt;Xin Zwijnenburg&lt;/h1&gt;
+
+    &lt;p class="slogan"&gt;
+      &lt;em&gt;Frontend Design &amp; Development Student&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="about-me"&gt;
+  &lt;h2&gt;ABOUT ME&lt;/h2&gt;
+  &lt;p class="about-me-text"&gt;
+    After a long day of coding I like to pet animals, watch movies and game.
+    If I'm not doing any of those, I'm probably looking in the fridge 💗
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="activity"&gt;
+  &lt;h2&gt;ACTIVITY&lt;/h2&gt;
+
+  &lt;div class="spotify-activity"&gt;
+    &lt;img class="album-cover" src="assets/album-cover.jpg"&gt;
+
+    &lt;svg class="spotify-logo" xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill=rgb(31 31 31) class="bi bi-spotify" viewBox="0 0 16 16"&gt;
+      &lt;path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/&gt;
+    &lt;/svg&gt;
+
+    &lt;p class="spotify-status"&gt;Listening to Atom - Lovet and Victor Leksell&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+            <div id="after">
+                <h2>After</h2>
+<pre><code class="language-html">&lt;div id="banner"&gt;
+  &lt;img src="assets/appa-art.png" id="bannerphoto"&gt;
+  &lt;img src="assets/profilepic.jpg" id="profilepic"&gt;
+
+  &lt;svg id="status" width="45" height="45" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+    &lt;circle cx="28" cy="28" r="28" fill="#F4F4F4"/&gt;
+    &lt;path d="M33.3379 10.2598C41.0882 12.615 46.7283 19.8169 46.7285 28.3369C46.7285 38.7704 38.2704 47.2285 27.8369 47.2285C18.1826 47.2283 10.2203 39.9866 9.08496 30.6387C11.9825 33.7865 16.1373 35.7588 20.7529 35.7588C29.5096 35.7588 36.6084 28.66 36.6084 19.9033C36.6083 16.2748 35.3885 12.9318 33.3379 10.2598Z" fill="#FFC466"/&gt;
+  &lt;/svg&gt;
+
+  &lt;svg id="thoughtbar" width="120" height="100" viewBox="0 0 312 295" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+    &lt;circle cx="37" cy="37" r="37" fill="#F5F5F5"/&gt;
+    &lt;path d="M105 74C126.253 74 144.136 88.4146 149.415 108H266C291.405 108 312 128.595 312 154V249C312 274.405 291.405 295 266 295H46C20.5949 295 2.98009e-07 274.405 0 249V154C1.80416e-06 128.595 20.5949 108 46 108H60.585C65.8636 88.4146 83.7467 74 105 74Z" fill="#F5F5F5"/&gt;
+    &lt;use xlink:href="#image0_7_36" transform="matrix(0.8 0 0 0.8 87 137.96)"/&gt;
+    &lt;defs&gt;
+      &lt;image id="image0_7_36" width="160" height="160" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACg..."/&gt;
+    &lt;/defs&gt;
+  &lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;div id="empty-space"&gt;&lt;/div&gt;
+
+&lt;article&gt;
+  &lt;div class="info"&gt;
+    &lt;h2&gt;Xin Juliette 🌸&lt;/h2&gt;
+    &lt;h3&gt;Front-end &amp; Development Student&lt;/h3&gt;
+  &lt;/div&gt;
+
+  &lt;div class="bio"&gt;
+    &lt;h2&gt;ABOUT ME&lt;/h2&gt;
+    &lt;p&gt;After a long day of coding I like to pet animals, watch movies and game. If I'm not doing any of those, I'm probably looking in the fridge 💗&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="activity"&gt;
+    &lt;h2&gt;ACTIVITY&lt;/h2&gt;
+    &lt;article id="activity"&gt;
+      &lt;img id="album" src="assets/amberruncover.jpg"&gt;
+      &lt;h3&gt;Listening Heaven - Amber Run&lt;/h3&gt;
+    &lt;/article&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</code></pre>
+            </div>
+        </article>
+        
+
 
     </main>
 </body>
