@@ -184,4 +184,38 @@ main {
         h1 {
             text-decoration: underline;
         }
+        a {
+            color: white;
+            text-decoration: none;
+            border-width: .2em;
+            border-color: white;
+            border-style: solid;
+            padding: .5em;
+            border-radius: 1em;
+        }
+}
+
+/* CODE FEEDBACK */
+.feedback {
+    background-color: var(--bodytext);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    gap: 1em;
+
+    #feedback {
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        border-width: .2em;
+        border-color: white;
+        border-style: solid;
+        padding: .5em;
+        border-radius: 1em;
+    }
 }
